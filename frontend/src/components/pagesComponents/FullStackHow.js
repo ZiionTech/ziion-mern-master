@@ -56,6 +56,8 @@ const FullStackHow = () => {
             <h3>Step 5: Get Placed</h3>
             <p>Get assistance with job placements and start your professional career.</p>
           </div>
+
+          
         </div>
       </div>
     </div>

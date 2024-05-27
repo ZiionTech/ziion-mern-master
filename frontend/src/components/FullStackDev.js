@@ -17,6 +17,8 @@ const FullStackDev = () => {
             <FullStackSyllabus />
 
 
+
+
             
         </div>
     )

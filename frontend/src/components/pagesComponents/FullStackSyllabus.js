@@ -29,7 +29,8 @@ function FullStackSyllabus() {
           ))}
         </ul>
 
-        
+
+
       </div>
     </section>
   );

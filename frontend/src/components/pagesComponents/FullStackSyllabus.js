@@ -28,6 +28,8 @@ function FullStackSyllabus() {
             </li>
           ))}
         </ul>
+
+        
       </div>
     </section>
   );

@@ -15,6 +15,9 @@ const FullStackDev = () => {
             <WhyChoose />
             <FullStackHow />
             <FullStackSyllabus />
+
+
+            
         </div>
     )
 }

@@ -49,6 +49,7 @@ const FullStackHow = () => {
         <div className="arrow">➔</div>
         <div className="step">
           <div className="step-icon">
+
             <FaBriefcase />
           </div>
           <div className="step-content">

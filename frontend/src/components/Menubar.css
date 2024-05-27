@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 100px;
+  transition: transform 0.3s;
+}
+
+.logo img:hover {
+  transform: scale(1.1);
+}
+
+.contact-info {
+  font-size: 14px;
+  display: flex;
+}
+
+.contact-info a {
+  font-size: large;
+  font-weight: bold;
+}
+
+.call-button {
+  background-color: #ffbe57;
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 1rem;
+}
+
+.call-button i {
+  margin-right: 8px;
+}
+
+.call-button:hover {
+  background-color: #333;
+  color: #ffbe57;
+}
+
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-icon-line {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.menubar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menubar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menubar-item {
+  margin: 0 10px;
+}
+
+.menubar-item a {
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.menubar-item a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #ffbe57;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.menubar-item a:hover::after,
+.menubar-item.active a::after {
+  width: 100%;
+  left: 0;
+  background: #ffbe57;
+}
+
+.menubar-item a:hover,
+.menubar-item.active a {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: flex;
+  }
+
+  .menubar {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menubar.open {
+    display: flex;
+  }
+
+  .menubar-list {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menubar-item {
+    margin: 5px 0;
+    width: 100%;
+  }
+
+  .menubar-item a {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .call-button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .menubar-item a {
+    padding: 8px 16px;
+  }
+}
+
+

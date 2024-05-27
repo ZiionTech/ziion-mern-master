@@ -1,0 +1,32 @@
+.features-container {
+    background-color: #222;
+    color: #fff;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+  }
+  
+  .feature img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .feature h2 {
+    color: #ffbe57;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+  }
+  

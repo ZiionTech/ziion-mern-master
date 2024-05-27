@@ -1,0 +1,138 @@
+.full-stack-page {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #222;
+    
+  }
+  
+  .content-section {
+    flex: 1 1 60%;
+    padding: 20px;
+  }
+  
+  .page-heading h1 {
+    font-size: 2.5em;
+    color: black;
+  }
+  
+  .page-heading p {
+    font-size: 1.2em;
+    color: #777;
+    margin: 10px 0;
+  }
+  
+  .page-heading .highlight {
+    color: #222;
+    font-weight: bold;
+  }
+  
+  .features-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .feature-box {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: calc(11.333% - 20px); /* Make sure three items fit in one row */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+  
+  .feature-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .feature-icon {
+    font-size: 1.5em; /* Smaller icon size */
+    color: #ffbe57;
+    margin-bottom: 5px;
+  }
+  
+  .feature-title {
+    font-size: 0.9em; /* Smaller title size */
+    color: #222;
+  }
+  
+  .cta-sec {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .cta-btn {
+    background-color: #222;
+    color: #ffbe57;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+  }
+  
+  .cta-btn:hover {
+    background-color: #555;
+  }
+  
+  .advisor-form-section {
+    flex: 1 1 30%;
+    padding: 20px;
+    background-color: #dadada;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .advisor-form-section h2 {
+    color: #222;
+    margin-bottom: 20px;
+  }
+  
+  .advisor-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-input,
+  .form-select,
+  .form-button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  .form-button {
+    background-color: #ffbe57;
+    color: #222;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-button:hover {
+    background-color: #e0a500;
+  }
+  
+  @media (max-width: 768px) {
+    .full-stack-page {
+      flex-direction: column;
+    }
+  
+    .features-section {
+      flex-direction: column;
+    }
+  
+    .feature-box {
+      width: 100%;
+    }
+  }
+  

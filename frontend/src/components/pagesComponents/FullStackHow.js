@@ -1,5 +1,5 @@
 import React from 'react';
-import './FullStackHow.css';
+import './HowFS.css';
 import { FaChalkboardTeacher, FaUserCheck, FaSchool, FaCertificate, FaBriefcase } from 'react-icons/fa';
 
 const FullStackHow = () => {

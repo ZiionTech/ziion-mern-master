@@ -1,8 +1,8 @@
 // src/Syllabus.js
 import React from 'react';
-import './FullStackSyllabus.css';
+import './SyllabusFS.css';
 
-function FullStackSyllabus() {
+function SyllabusFS() {
   const syllabus = [
     { week: 1, topic: 'Introduction to HTML & CSS' },
     { week: 2, topic: 'JavaScript Basics' },
@@ -36,4 +36,4 @@ function FullStackSyllabus() {
   );
 }
 
-export default FullStackSyllabus;
+export default SyllabusFS;

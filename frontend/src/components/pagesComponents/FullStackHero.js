@@ -13,8 +13,9 @@ const FullStackHero = () => {
       <div className="hero-content">
         <div className="right-section">
           <p><i>Elevate your skills with us.</i></p>
+
           <h1>Master Full Stack Web Development with the Best Course in Chandigarh and Become a Top-Tier Developer</h1>
-          <p>
+          <p className='desc'>
             Our Full Stack Web Development training program in Chandigarh features a cutting-edge curriculum designed to equip students with an in-depth understanding of the latest web development technologies and tools. This comprehensive program covers both front-end and back-end development, as well as databases, web servers, and APIs, ensuring students gain the skills needed to excel in the dynamic field of web development.
           </p>
           <div className="button-group">

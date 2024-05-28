@@ -1,6 +1,7 @@
 import React from 'react';
 import './Benefits.css';
 import { FaChalkboardTeacher, FaBook, FaLaptop, FaCertificate, FaGlobe, FaHandsHelping } from 'react-icons/fa';
+import benefitsImage from '../assets/images/benefits.png';
 
 const Benefits = () => {
 
@@ -53,7 +54,7 @@ const Benefits = () => {
             ))}
         </div>
         <div className="benefits-image">
-          <img src="https://via.placeholder.com/600x600" alt="Benefits" />
+          <img src={benefitsImage} alt="Benefits" />
         </div>
       </div>
     </div>

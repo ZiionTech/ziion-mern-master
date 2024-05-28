@@ -21,9 +21,7 @@ const Menubar = () => {
           <a className="call-button" href="tel:+919878564224">
             <i className="fas fa-phone-alt"></i>+91-9878564224
           </a>
-          <a className="call-button" href="tel:+919878564224">
-            <i className="fas fa-phone-alt"></i>Book free demo now!
-          </a>
+          
         </div>
         <div className="menu-icon" onClick={toggleMenu}>
           <span className="menu-icon-line"></span>

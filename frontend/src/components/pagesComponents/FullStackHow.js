@@ -4,9 +4,9 @@ import { FaChalkboardTeacher, FaUserCheck, FaSchool, FaCertificate, FaBriefcase 
 
 const FullStackHow = () => {
   return (
-    <div className="how-it-works-container">
+    <div className="how-container">
       <h2>How It Works</h2>
-      <div className="steps-container">
+      <div className="steps-contain">
         <div className="step">
           <div className="step-icon">
             <FaChalkboardTeacher />

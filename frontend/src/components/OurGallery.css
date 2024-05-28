@@ -1,0 +1,48 @@
+.our-gallery {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .gallery-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .our-gallery h2 {
+    color: #ffbe57;
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+
+  .image{
+    margin-left: 10px;
+  }
+  
+  .carousel .slide img {
+    border-radius: 10px;
+  }
+  
+  .carousel .control-arrow,
+  .carousel.carousel-slider .control-arrow {
+    color: #ffbe57;
+  }
+  
+  .carousel .control-dots .dot {
+    background: #ffbe57;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel .slide img {
+      border-radius: 8px;
+    }
+    
+  }
+  
+  @media (max-width: 480px) {
+    .carousel .slide img {
+      border-radius: 5px;
+    }
+  }
+  

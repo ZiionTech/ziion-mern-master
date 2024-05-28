@@ -1,5 +1,6 @@
 import React from 'react';
 import './EnrollNow.css';
+import admission from '../assets/images/admission.png'
 
 const EnrollNow = () => {
   return (
@@ -7,13 +8,13 @@ const EnrollNow = () => {
       <div className="enroll-now-content">
         <div className="left-section">
           <div className="image-container">
-            <img src="https://via.placeholder.com/700X550" alt="enroll" />
+            <img src={admission} alt="enroll" />
           </div>
         </div>
         <div className="right-section">
           <div className="form-container">
             <div className="form-heading">
-              <h2>Enroll Now</h2>
+              <h2>Start your Admission Process</h2>
             </div>
             <form>
               <div className="form-group">

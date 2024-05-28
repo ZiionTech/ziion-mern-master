@@ -149,8 +149,24 @@
 }
 
 @media (max-width: 768px) {
+  .enquiry-form {
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+  }
+
+  .left-section h2{
+    font-size: 1.4rem;
+  }
   .enquiry-form h2 {
-    font-size: 1.2rem;
+    font-size: 05rem;
+  }
+  .right-section .desc{
+    display: none;
+  }
+
+ .right-section .button-group{
+    display: none;
   }
 
   .enquiry-form button {

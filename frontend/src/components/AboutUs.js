@@ -3,6 +3,13 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './AboutUs.css';
 
+import carouselImage2 from '../assets/images/pic2.jpeg';
+import carouselImage3 from '../assets/images/pic3.jpeg';
+
+import carouselImage5 from '../assets/images/pic5.jpeg';
+import carouselImage6 from '../assets/images/pic6.jpeg';
+import carouselImage7 from '../assets/images/pic7.jpeg';
+
 const AboutUs = () => {
   return (
     <div className="about-us-container">
@@ -23,14 +30,22 @@ const AboutUs = () => {
           transitionTime={500}
           swipeable={true}
         >
+        
           <div>
-            <img src="https://via.placeholder.com/600x400" alt="Team Member 1" />
+            <img src={carouselImage2} alt="Team Member 2" />
           </div>
           <div>
-            <img src="https://via.placeholder.com/600x400" alt="Team Member 2" />
+            <img src={carouselImage3} alt="Team Member 3" />
+          </div>
+        
+          <div>
+            <img src={carouselImage5} alt="Team Member 5" />
           </div>
           <div>
-            <img src="https://via.placeholder.com/600x400" alt="Team Member 3" />
+            <img src={carouselImage6} alt="Team Member 6" />
+          </div>
+          <div>
+            <img src={carouselImage7} alt="Team Member 7" />
           </div>
         </Carousel>
       </div>

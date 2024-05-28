@@ -129,10 +129,19 @@
   
     .features-section {
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 3rem;
     }
   
     .feature-box {
       width: 100%;
+    }
+    .cta-sec .cta-btn{
+      width: 80%;
+      height: 5rem;
+      font-size: larger;
+      font-weight: bold;
     }
   }
   

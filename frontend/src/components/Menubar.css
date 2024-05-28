@@ -128,6 +128,10 @@ body {
   .menu-icon {
     display: flex;
   }
+  .logo img {
+    height: 50px;
+    transition: transform 0.3s;
+  }
 
   .menubar {
     display: none;
@@ -144,6 +148,9 @@ body {
     width: 100%;
   }
 
+  .call-button {
+    font-size: 1px;
+  }
   .menubar-item {
     margin: 5px 0;
     width: 100%;
@@ -166,3 +173,44 @@ body {
 }
 
 
+/* Your existing CSS */
+
+/* Additional CSS for responsiveness and animations */
+
+/* Animations for menu icon lines */
+.menu-icon-line {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.menu-icon-line.open:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.menu-icon-line.open:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-icon-line.open:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+@media (max-width: 768px) {
+  /* Your existing media query styles */
+
+  /* Additional CSS for responsive menu */
+  .menubar.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Your existing media query styles */
+
+  /* Additional CSS for smaller screens */
+}

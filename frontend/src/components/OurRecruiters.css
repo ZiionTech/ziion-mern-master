@@ -27,6 +27,8 @@
     max-width: 100%;
     border-radius: 8px;
     transition: transform 0.3s;
+    max-height: 100px;
+    height: 100px;
   }
   
   .logo-item img:hover {
@@ -36,6 +38,10 @@
   @media (max-width: 768px) {
     .logos-grid {
       grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    }
+
+    .logo-item img{
+        height: 75px;
     }
   }
   

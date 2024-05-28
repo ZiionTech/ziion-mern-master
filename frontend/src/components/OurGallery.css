@@ -22,7 +22,6 @@
   
   .carousel .slide img {
     border-radius: 10px;
-    margin-left: 50px;
   }
   
   .carousel .control-arrow,
@@ -38,6 +37,7 @@
     .carousel .slide img {
       border-radius: 8px;
     }
+    
   }
   
   @media (max-width: 480px) {

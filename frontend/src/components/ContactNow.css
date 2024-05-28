@@ -94,6 +94,9 @@
     .contact-container {
       flex-direction: column;
     }
+    .form-section h2{
+        font-size: 1.6rem;
+    }
   
     .map-section, .form-section {
       margin-right: 0;

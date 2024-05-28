@@ -1,17 +1,17 @@
-.how-it-works-container {
+.how-container {
     background-color: #ccc;
     color: black;
     padding: 50px 20px;
     text-align: center;
   }
   
-  .how-it-works-container h2 {
+  .how-container h2 {
     color: black;
     font-size: 2.5rem;
     margin-bottom: 40px;
   }
   
-  .steps-container {
+  .steps-contain {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -52,7 +52,7 @@
   }
   
   @media (max-width: 768px) {
-    .steps-container {
+    .steps-contain {
       flex-direction: column;
     }
   

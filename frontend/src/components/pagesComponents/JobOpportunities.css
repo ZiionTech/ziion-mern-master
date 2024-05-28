@@ -1,0 +1,71 @@
+.job-opportunities {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .job-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .job-opportunities h2 {
+    color: #ffbe57;
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .job-opportunities p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+  
+  .job-roles {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .job-roles li {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .job-roles li:hover {
+    background-color: #444;
+  }
+  
+  .images-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .image-item img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .image-item img:hover {
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .job-roles, .images-grid {
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .job-roles, .images-grid {
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+  }
+  

@@ -1,77 +1,86 @@
-/* src/Syllabus.css */
-
 .syllabus {
-    padding: 4rem 2rem;
-    background-color: #f9f9f9;
-    text-align: center;
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+}
+
+.syllabus-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.syllabus h2 {
+  text-align: center;
+  color: #ffbe57;
+  margin-bottom: 20px;
+  font-size: xx-large;
+}
+
+.syllabus-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.syllabus-column {
+  list-style: none;
+  padding: 0;
+  flex: 1;
+}
+
+.syllabus li {
+  margin-bottom: 10px;
+}
+
+.Collapsible {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Collapsible:hover {
+  background-color: #444;
+}
+
+.Collapsible__trigger {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffbe57;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Collapsible__contentInner {
+  padding: 10px;
+  background-color: #555;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.Collapsible__contentInner ul {
+  padding-left: 20px;
+}
+
+.Collapsible__contentInner ul li {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .syllabus-columns {
+    flex-direction: column;
   }
-  
-  .syllabus-container {
-    max-width: 800px;
-    margin: 0 auto;
-    background: white;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  .Collapsible__trigger {
+    font-size: 16px;
   }
-  
-  .syllabus h2 {
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 2rem;
-  }
-  
-  .syllabus ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .syllabus li {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background: #ffbe57;
-    color: black;
-    padding: 1rem;
-    margin: 1rem 0;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
-  
-  .syllabus li:hover {
-    background-color: #e0a845;
-  }
-  
-  .week {
-    font-weight: bold;
-    font-size: 1.2rem;
-  }
-  
-  .topic {
-    font-size: 1rem;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .syllabus-container {
-      padding: 1rem;
-    }
-  
-    .syllabus li {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .week {
-      margin-bottom: 0.5rem;
-    }
-  
+}
 
 
-    
-    .topic {
-      font-size: 0.9rem;
-    }
-  }
-  
+
+.syllabus-container p{
+  text-align: center;
+}

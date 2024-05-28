@@ -14,6 +14,9 @@ const HomePage = () => {
            <Hero />
            <Features />
            <PopularCourses />
+
+
+           
            <Testimonials />
            <Benefits />
            <HowItWorks />

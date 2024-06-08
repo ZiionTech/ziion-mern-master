@@ -1,5 +1,6 @@
 import React from 'react';
 import './ContactNow.css';
+import demo from '../assets/images/demo.png'
 
 function ContactNow() {
   return (
@@ -7,7 +8,7 @@ function ContactNow() {
       <div className="contact-container">
         <div className="map-section">
           <img
-            src="https://via.placeholder.com/600x400"
+            src={demo}
             alt="Map Location"
             className="map-image"
           />

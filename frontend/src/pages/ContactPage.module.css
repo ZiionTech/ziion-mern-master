@@ -1,0 +1,108 @@
+.contactUsPage {
+    font-family: 'Arial', sans-serif;
+    color: #222;
+    padding: 20px;
+  }
+  
+  .contactHeader {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contactHeader h1 {
+    font-size: 2.5em;
+    color: #ffbe57;
+  }
+  
+  .contactHeader p {
+    font-size: 1.2em;
+    color: #777;
+  }
+  
+  .contactContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .contactFormSection, .contactInfoSection {
+    flex: 1 1 45%;
+    margin: 20px 0;
+  }
+  
+  .contactFormSection h2, .contactInfoSection h2 {
+    color: #222;
+    margin-bottom: 20px;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .formInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .formButton {
+    background-color: #ffbe57;
+    color: #222;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .formButton:hover {
+    background-color: #e0a500;
+  }
+
+  .contactInfoSection{
+    margin-left: 7rem;
+  }
+  
+  .contactInfoSection ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contactInfoSection ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+  
+  .contactMapSection {
+    margin-top: 40px;
+  }
+  
+  .contactMapSection h2 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .contactContent {
+      flex-direction: column;
+    }
+  
+    .contactFormSection, .contactInfoSection {
+      flex: 1 1 100%;
+      margin: 10px 0;
+    }
+  }
+  

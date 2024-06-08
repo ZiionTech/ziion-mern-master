@@ -43,9 +43,7 @@ const Menubar = () => {
           <li className={`menubar-item ${location.pathname === '/about-us' ? 'active' : ''}`}>
             <Link to="/about-us" onClick={toggleMenu}>About Us</Link>
           </li>
-          <li className={`menubar-item ${location.pathname === '/blogs' ? 'active' : ''}`}>
-            <Link to="/blogs" onClick={toggleMenu}>Blogs</Link>
-          </li>
+         
           <li className={`menubar-item ${location.pathname === '/contact-us' ? 'active' : ''}`}>
             <Link to="/contact-us" onClick={toggleMenu}>Contact Us</Link>
           </li>

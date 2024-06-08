@@ -24,10 +24,10 @@ const Footer = () => {
         </div>
         <div className="footer-info">
           <h3>Contact Us</h3>
-          <p>123 Street Name</p>
-          <p>City, Country</p>
-          <p>Email: info@example.com</p>
-          <p>Phone: +1234567890</p>
+          <p>D-152, First Floor, Phase-8, Industrial Area</p>
+          <p>Mohali, Punjab - 160055</p>
+          <p>Email: ziiontechnology@gmail.com</p>
+          <p>Phone: +91-9878564224 | +91-9878304224 | +91-8264974224</p>
         </div>
       </div>
       <div className="social-media">

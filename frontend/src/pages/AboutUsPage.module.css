@@ -1,0 +1,114 @@
+.aboutUsPage {
+    font-family: 'Arial', sans-serif;
+    color: #222;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .aboutHeader {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .aboutHeader h1 {
+    font-size: 2.5em;
+    color: #ffbe57;
+    margin-bottom: 0.5em;
+  }
+  
+  .aboutHeader p {
+    font-size: 1.2em;
+    color: #777;
+  }
+  
+  .companyOverview,
+  .missionVision,
+  .team,
+  .values {
+    margin-bottom: 40px;
+  }
+  
+  .companyOverview p,
+  .missionVisionContent p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+  }
+  
+  .missionVisionContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .mission,
+  .vision {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .mission h3,
+  .vision h3 {
+    color: #ffbe57;
+    margin-bottom: 10px;
+  }
+  
+  .teamMembers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .teamMember {
+    text-align: center;
+  }
+  
+  .teamMember img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .teamMember h3 {
+    margin: 10px 0 5px;
+    color: #ffbe57;
+  }
+  
+  .teamMember p {
+    font-size: 1em;
+    color: #777;
+  }
+  
+  .valuesGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .value {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .value h3 {
+    color: #ffbe57;
+    margin-bottom: 10px;
+  }
+  
+  .value p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .missionVisionContent,
+    .valuesGrid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

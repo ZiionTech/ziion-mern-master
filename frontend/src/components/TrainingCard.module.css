@@ -1,0 +1,63 @@
+/* src/TrainingCard.module.css */
+.card {
+    background-color: #222;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .icon {
+    font-size: 2em;
+    margin-right: 10px;
+    color: #ffbe57;
+  }
+  
+  .topicList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .topicList li {
+    margin: 5px 0;
+  }
+  
+  .cardFooter {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+  }
+  
+  .readMore, .demoClass {
+    background-color: #ffbe57;
+    color: #222;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bolder;
+  }
+  
+  .readMore:hover, .demoClass:hover {
+    background-color: #e0a643;
+  }
+  
